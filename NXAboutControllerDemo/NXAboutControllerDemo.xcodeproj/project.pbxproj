@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8824C9F61D13DDDB00D4C846 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8824C9F51D13DDDB00D4C846 /* main.m */; };
+		8824C9F91D13DDDB00D4C846 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8824C9F81D13DDDB00D4C846 /* AppDelegate.m */; };
+		8824C9FC1D13DDDB00D4C846 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8824C9FB1D13DDDB00D4C846 /* ViewController.m */; };
+		8824C9FF1D13DDDB00D4C846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8824C9FD1D13DDDB00D4C846 /* Main.storyboard */; };
+		8824CA011D13DDDB00D4C846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8824CA001D13DDDB00D4C846 /* Assets.xcassets */; };
+		8824CA041D13DDDB00D4C846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8824CA021D13DDDB00D4C846 /* LaunchScreen.storyboard */; };
+		8824CA0F1D13DDDC00D4C846 /* NXAboutControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8824CA0E1D13DDDC00D4C846 /* NXAboutControllerDemoTests.m */; };
+		8824CA1A1D13DDDC00D4C846 /* NXAboutControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8824CA191D13DDDC00D4C846 /* NXAboutControllerDemoUITests.m */; };
+		8824CA2E1D13DEDD00D4C846 /* NXAboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8824CA291D13DEDD00D4C846 /* NXAboutController.m */; };
+		8824CA2F1D13DEDD00D4C846 /* NXAboutHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8824CA2B1D13DEDD00D4C846 /* NXAboutHeaderCell.m */; };
+		8824CA301D13DEDD00D4C846 /* NXAboutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8824CA2D1D13DEDD00D4C846 /* NXAboutItem.m */; };
+		FC180D90C7AEECCDA67E585A /* libPods-NXAboutControllerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3A35207768D1C1A0B2E2AC /* libPods-NXAboutControllerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8824CA0B1D13DDDC00D4C846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8824C9E91D13DDDB00D4C846 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8824C9F01D13DDDB00D4C846;
+			remoteInfo = NXAboutControllerDemo;
+		};
+		8824CA161D13DDDC00D4C846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8824C9E91D13DDDB00D4C846 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8824C9F01D13DDDB00D4C846;
+			remoteInfo = NXAboutControllerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8824C9F11D13DDDB00D4C846 /* NXAboutControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NXAboutControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8824C9F51D13DDDB00D4C846 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8824C9F71D13DDDB00D4C846 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8824C9F81D13DDDB00D4C846 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8824C9FA1D13DDDB00D4C846 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8824C9FB1D13DDDB00D4C846 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8824C9FE1D13DDDB00D4C846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8824CA001D13DDDB00D4C846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8824CA031D13DDDB00D4C846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8824CA051D13DDDB00D4C846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8824CA0A1D13DDDC00D4C846 /* NXAboutControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NXAboutControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8824CA0E1D13DDDC00D4C846 /* NXAboutControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXAboutControllerDemoTests.m; sourceTree = "<group>"; };
+		8824CA101D13DDDC00D4C846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8824CA151D13DDDC00D4C846 /* NXAboutControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NXAboutControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8824CA191D13DDDC00D4C846 /* NXAboutControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXAboutControllerDemoUITests.m; sourceTree = "<group>"; };
+		8824CA1B1D13DDDC00D4C846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8824CA281D13DEDD00D4C846 /* NXAboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXAboutController.h; sourceTree = "<group>"; };
+		8824CA291D13DEDD00D4C846 /* NXAboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXAboutController.m; sourceTree = "<group>"; };
+		8824CA2A1D13DEDD00D4C846 /* NXAboutHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXAboutHeaderCell.h; sourceTree = "<group>"; };
+		8824CA2B1D13DEDD00D4C846 /* NXAboutHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXAboutHeaderCell.m; sourceTree = "<group>"; };
+		8824CA2C1D13DEDD00D4C846 /* NXAboutItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXAboutItem.h; sourceTree = "<group>"; };
+		8824CA2D1D13DEDD00D4C846 /* NXAboutItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXAboutItem.m; sourceTree = "<group>"; };
+		8C143764681920C45781045C /* Pods-NXAboutControllerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NXAboutControllerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NXAboutControllerDemo/Pods-NXAboutControllerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AF6CDB45266AF1387BB15DA0 /* Pods-NXAboutControllerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NXAboutControllerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NXAboutControllerDemo/Pods-NXAboutControllerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BE3A35207768D1C1A0B2E2AC /* libPods-NXAboutControllerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NXAboutControllerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8824C9EE1D13DDDB00D4C846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC180D90C7AEECCDA67E585A /* libPods-NXAboutControllerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8824CA071D13DDDC00D4C846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8824CA121D13DDDC00D4C846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A1FD0020817A10788E0E9A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE3A35207768D1C1A0B2E2AC /* libPods-NXAboutControllerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8824C9E81D13DDDB00D4C846 = {
+			isa = PBXGroup;
+			children = (
+				8824CA271D13DEDD00D4C846 /* NXAboutController */,
+				8824C9F31D13DDDB00D4C846 /* NXAboutControllerDemo */,
+				8824CA0D1D13DDDC00D4C846 /* NXAboutControllerDemoTests */,
+				8824CA181D13DDDC00D4C846 /* NXAboutControllerDemoUITests */,
+				8824C9F21D13DDDB00D4C846 /* Products */,
+				A2B20B6A8E4DD28BB1C5CE86 /* Pods */,
+				0A1FD0020817A10788E0E9A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8824C9F21D13DDDB00D4C846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8824C9F11D13DDDB00D4C846 /* NXAboutControllerDemo.app */,
+				8824CA0A1D13DDDC00D4C846 /* NXAboutControllerDemoTests.xctest */,
+				8824CA151D13DDDC00D4C846 /* NXAboutControllerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8824C9F31D13DDDB00D4C846 /* NXAboutControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8824C9F71D13DDDB00D4C846 /* AppDelegate.h */,
+				8824C9F81D13DDDB00D4C846 /* AppDelegate.m */,
+				8824C9FA1D13DDDB00D4C846 /* ViewController.h */,
+				8824C9FB1D13DDDB00D4C846 /* ViewController.m */,
+				8824C9FD1D13DDDB00D4C846 /* Main.storyboard */,
+				8824CA001D13DDDB00D4C846 /* Assets.xcassets */,
+				8824CA021D13DDDB00D4C846 /* LaunchScreen.storyboard */,
+				8824CA051D13DDDB00D4C846 /* Info.plist */,
+				8824C9F41D13DDDB00D4C846 /* Supporting Files */,
+			);
+			path = NXAboutControllerDemo;
+			sourceTree = "<group>";
+		};
+		8824C9F41D13DDDB00D4C846 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8824C9F51D13DDDB00D4C846 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8824CA0D1D13DDDC00D4C846 /* NXAboutControllerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8824CA0E1D13DDDC00D4C846 /* NXAboutControllerDemoTests.m */,
+				8824CA101D13DDDC00D4C846 /* Info.plist */,
+			);
+			path = NXAboutControllerDemoTests;
+			sourceTree = "<group>";
+		};
+		8824CA181D13DDDC00D4C846 /* NXAboutControllerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8824CA191D13DDDC00D4C846 /* NXAboutControllerDemoUITests.m */,
+				8824CA1B1D13DDDC00D4C846 /* Info.plist */,
+			);
+			path = NXAboutControllerDemoUITests;
+			sourceTree = "<group>";
+		};
+		8824CA271D13DEDD00D4C846 /* NXAboutController */ = {
+			isa = PBXGroup;
+			children = (
+				8824CA281D13DEDD00D4C846 /* NXAboutController.h */,
+				8824CA291D13DEDD00D4C846 /* NXAboutController.m */,
+				8824CA2A1D13DEDD00D4C846 /* NXAboutHeaderCell.h */,
+				8824CA2B1D13DEDD00D4C846 /* NXAboutHeaderCell.m */,
+				8824CA2C1D13DEDD00D4C846 /* NXAboutItem.h */,
+				8824CA2D1D13DEDD00D4C846 /* NXAboutItem.m */,
+			);
+			name = NXAboutController;
+			path = ../NXAboutController;
+			sourceTree = "<group>";
+		};
+		A2B20B6A8E4DD28BB1C5CE86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF6CDB45266AF1387BB15DA0 /* Pods-NXAboutControllerDemo.debug.xcconfig */,
+				8C143764681920C45781045C /* Pods-NXAboutControllerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8824C9F01D13DDDB00D4C846 /* NXAboutControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8824CA1E1D13DDDC00D4C846 /* Build configuration list for PBXNativeTarget "NXAboutControllerDemo" */;
+			buildPhases = (
+				AF0CB8D78A5B1641DA4F4A9B /* [CP] Check Pods Manifest.lock */,
+				8824C9ED1D13DDDB00D4C846 /* Sources */,
+				8824C9EE1D13DDDB00D4C846 /* Frameworks */,
+				8824C9EF1D13DDDB00D4C846 /* Resources */,
+				47BB8A46E1677CC2DFD50DEE /* [CP] Embed Pods Frameworks */,
+				85B84C29AE8DEAFCB6DB1ADA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NXAboutControllerDemo;
+			productName = NXAboutControllerDemo;
+			productReference = 8824C9F11D13DDDB00D4C846 /* NXAboutControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8824CA091D13DDDC00D4C846 /* NXAboutControllerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8824CA211D13DDDC00D4C846 /* Build configuration list for PBXNativeTarget "NXAboutControllerDemoTests" */;
+			buildPhases = (
+				8824CA061D13DDDC00D4C846 /* Sources */,
+				8824CA071D13DDDC00D4C846 /* Frameworks */,
+				8824CA081D13DDDC00D4C846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8824CA0C1D13DDDC00D4C846 /* PBXTargetDependency */,
+			);
+			name = NXAboutControllerDemoTests;
+			productName = NXAboutControllerDemoTests;
+			productReference = 8824CA0A1D13DDDC00D4C846 /* NXAboutControllerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8824CA141D13DDDC00D4C846 /* NXAboutControllerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8824CA241D13DDDC00D4C846 /* Build configuration list for PBXNativeTarget "NXAboutControllerDemoUITests" */;
+			buildPhases = (
+				8824CA111D13DDDC00D4C846 /* Sources */,
+				8824CA121D13DDDC00D4C846 /* Frameworks */,
+				8824CA131D13DDDC00D4C846 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8824CA171D13DDDC00D4C846 /* PBXTargetDependency */,
+			);
+			name = NXAboutControllerDemoUITests;
+			productName = NXAboutControllerDemoUITests;
+			productReference = 8824CA151D13DDDC00D4C846 /* NXAboutControllerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8824C9E91D13DDDB00D4C846 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = nightx;
+				TargetAttributes = {
+					8824C9F01D13DDDB00D4C846 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					8824CA091D13DDDC00D4C846 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8824C9F01D13DDDB00D4C846;
+					};
+					8824CA141D13DDDC00D4C846 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 8824C9F01D13DDDB00D4C846;
+					};
+				};
+			};
+			buildConfigurationList = 8824C9EC1D13DDDB00D4C846 /* Build configuration list for PBXProject "NXAboutControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8824C9E81D13DDDB00D4C846;
+			productRefGroup = 8824C9F21D13DDDB00D4C846 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8824C9F01D13DDDB00D4C846 /* NXAboutControllerDemo */,
+				8824CA091D13DDDC00D4C846 /* NXAboutControllerDemoTests */,
+				8824CA141D13DDDC00D4C846 /* NXAboutControllerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8824C9EF1D13DDDB00D4C846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8824CA041D13DDDB00D4C846 /* LaunchScreen.storyboard in Resources */,
+				8824CA011D13DDDB00D4C846 /* Assets.xcassets in Resources */,
+				8824C9FF1D13DDDB00D4C846 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8824CA081D13DDDC00D4C846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8824CA131D13DDDC00D4C846 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47BB8A46E1677CC2DFD50DEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NXAboutControllerDemo/Pods-NXAboutControllerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85B84C29AE8DEAFCB6DB1ADA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NXAboutControllerDemo/Pods-NXAboutControllerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF0CB8D78A5B1641DA4F4A9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8824C9ED1D13DDDB00D4C846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8824CA2F1D13DEDD00D4C846 /* NXAboutHeaderCell.m in Sources */,
+				8824C9FC1D13DDDB00D4C846 /* ViewController.m in Sources */,
+				8824C9F91D13DDDB00D4C846 /* AppDelegate.m in Sources */,
+				8824C9F61D13DDDB00D4C846 /* main.m in Sources */,
+				8824CA301D13DEDD00D4C846 /* NXAboutItem.m in Sources */,
+				8824CA2E1D13DEDD00D4C846 /* NXAboutController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8824CA061D13DDDC00D4C846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8824CA0F1D13DDDC00D4C846 /* NXAboutControllerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8824CA111D13DDDC00D4C846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8824CA1A1D13DDDC00D4C846 /* NXAboutControllerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8824CA0C1D13DDDC00D4C846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8824C9F01D13DDDB00D4C846 /* NXAboutControllerDemo */;
+			targetProxy = 8824CA0B1D13DDDC00D4C846 /* PBXContainerItemProxy */;
+		};
+		8824CA171D13DDDC00D4C846 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8824C9F01D13DDDB00D4C846 /* NXAboutControllerDemo */;
+			targetProxy = 8824CA161D13DDDC00D4C846 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8824C9FD1D13DDDB00D4C846 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8824C9FE1D13DDDB00D4C846 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8824CA021D13DDDB00D4C846 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8824CA031D13DDDB00D4C846 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8824CA1C1D13DDDC00D4C846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8824CA1D1D13DDDC00D4C846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8824CA1F1D13DDDC00D4C846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF6CDB45266AF1387BB15DA0 /* Pods-NXAboutControllerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NXAboutControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nightx.NXAboutControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8824CA201D13DDDC00D4C846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C143764681920C45781045C /* Pods-NXAboutControllerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NXAboutControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nightx.NXAboutControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8824CA221D13DDDC00D4C846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NXAboutControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nightx.NXAboutControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NXAboutControllerDemo.app/NXAboutControllerDemo";
+			};
+			name = Debug;
+		};
+		8824CA231D13DDDC00D4C846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NXAboutControllerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nightx.NXAboutControllerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NXAboutControllerDemo.app/NXAboutControllerDemo";
+			};
+			name = Release;
+		};
+		8824CA251D13DDDC00D4C846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NXAboutControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nightx.NXAboutControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NXAboutControllerDemo;
+			};
+			name = Debug;
+		};
+		8824CA261D13DDDC00D4C846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NXAboutControllerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nightx.NXAboutControllerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NXAboutControllerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8824C9EC1D13DDDB00D4C846 /* Build configuration list for PBXProject "NXAboutControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8824CA1C1D13DDDC00D4C846 /* Debug */,
+				8824CA1D1D13DDDC00D4C846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8824CA1E1D13DDDC00D4C846 /* Build configuration list for PBXNativeTarget "NXAboutControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8824CA1F1D13DDDC00D4C846 /* Debug */,
+				8824CA201D13DDDC00D4C846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8824CA211D13DDDC00D4C846 /* Build configuration list for PBXNativeTarget "NXAboutControllerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8824CA221D13DDDC00D4C846 /* Debug */,
+				8824CA231D13DDDC00D4C846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8824CA241D13DDDC00D4C846 /* Build configuration list for PBXNativeTarget "NXAboutControllerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8824CA251D13DDDC00D4C846 /* Debug */,
+				8824CA261D13DDDC00D4C846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8824C9E91D13DDDB00D4C846 /* Project object */;
+}
