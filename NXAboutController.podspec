@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = 'NXAboutController'
-s.version      = '0.1.1'
+s.version      = '0.1.0'
 s.summary      = '一套简单的关于我们的界面'
 s.homepage     = 'https://github.com/qufeng33/NXAboutController.git'
 s.license      = 'MIT'
